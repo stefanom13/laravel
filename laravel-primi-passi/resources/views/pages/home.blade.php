@@ -20,15 +20,7 @@
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/contact">contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    @include('partials.header')
 
 
     <h1>benvenuto laravel</h1>
