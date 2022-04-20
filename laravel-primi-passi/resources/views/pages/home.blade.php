@@ -15,12 +15,6 @@
         html,
         body {
 
-            color: #636b6f;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
-            height: 100vh;
-            text-align: center;
-            margin: 0;
         }
     </style>
 </head>
