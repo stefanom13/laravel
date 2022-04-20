@@ -28,7 +28,7 @@
 <body>
     <h1>benvenuto laravel</h1>
 
-    <!-- <ul>
+    <ul>
 
      @foreach($team as $value)
 
@@ -36,7 +36,7 @@
 
      @endforeach
         
-    </ul> -->
+    </ul>
 
 
 </body>
