@@ -14,6 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    // inserito array dinamico da stampare con foreach
+    $team =[
+        [
+           "name" => "Luca"
+        ],
+        [
+            "name" => "Antonio"
+        ],
+        [
+            "name" => "Michela"
+        ],
+    ];
     
-    return view('pages.home');
+    return view('pages.home',[
+        "team" => $team
+    ]);
 });
