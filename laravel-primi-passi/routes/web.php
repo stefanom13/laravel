@@ -31,3 +31,11 @@ Route::get('/', function () {
         "team" => $team
     ]);
 });
+
+// seconda chiamata(root)
+
+Route::get('/contact', function () {
+
+    
+    return view('contact');
+});

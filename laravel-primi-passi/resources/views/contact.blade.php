@@ -20,28 +20,9 @@
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <h1>benvenuto laravel nella seconda root</h1>
 
 
-    <h1>benvenuto laravel</h1>
-
-    <ul>
-
-     @foreach($team as $value)
-
-     <li>{{$value ['name'] }}</li>
-
-     @endforeach
-        
-    </ul>
 
 
 </body>
